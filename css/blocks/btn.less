@@ -15,11 +15,27 @@
 
   &-prim{
     background-color: @primary;
+    &:hover,
+    &:focus {
+      outline: 0;
+      background-color: darken(@primary, 8%)
+    }
   }
   &-sec{
     background-color: @secondary;
+    &:hover,
+    &:focus {
+      outline: 0;
+      background-color: darken(@primary, 8%)
+    }
   }
   &-thr{
     background-color: aquamarine;
+    &:hover,
+    &:focus {
+      outline: 0;
+      background-color: darken(@primary, 8%)
+    }
   }
+
 }
