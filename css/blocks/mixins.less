@@ -1,0 +1,10 @@
+// main: ../css/style.css
+
+.btn(@bg){
+  background-color: @bg;
+  &:hover,
+  &:focus {
+    outline: 0;
+    background-color: darken(@bg, 8%)
+  }
+}

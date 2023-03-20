@@ -16,31 +16,19 @@
   & + & {
     margin-left: 1rem;
   }
-  
+
+
   transition:  background.3s linear;
   &-prim{
-    background-color: @primary;
-    &:hover,
-    &:focus {
-      outline: 0;
-      background-color: darken(@primary, 8%)
-    }
+    .btn(@primary);
   }
   &-sec{
-    background-color: @secondary;
-    &:hover,
-    &:focus {
-      outline: 0;
-      background-color: darken(@secondary, 8%)
-    }
+    .btn(@secondary);
   }
   &-thr{
-    background-color: aquamarine;
-    &:hover,
-    &:focus {
-      outline: 0;
-      background-color: darken(aquamarine, 30%)
-    }
+    .btn(#d26928);
+  
   }
 
 }
+
